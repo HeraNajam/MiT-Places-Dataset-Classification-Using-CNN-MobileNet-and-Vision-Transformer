@@ -17,21 +17,21 @@ The "places-classification-data-preprocessing" notebook shows the data preproces
 Modeling:
 This project used Kaggle for training the models and saved the best-performing models.
 Train, Test, and Validation Split
-•	Train set size: 1,082,076 (60%)
-•	Test set size: 360,692 (20%)
-•	Validation set size: 360,692 (20%)
+1. Train set size: 1,082,076 (60%)
+2. Test set size: 360,692 (20%)
+3. Validation set size: 360,692 (20%)
 
 Configurations for Training
-•	Platform: Kaggle
-•	Device: GPU
-•	Framework: PyTorch
+1. Platform: Kaggle
+2. Device: GPU
+3. Framework: PyTorch
 
 Training Parameters
-•	Loss Function: CrossEntropyLoss
-•	Optimizer: Adam
-•	Learning Rate: 0.0001
-•	Batch Size: 1000
-•	Training Epochs: 20
+1. Loss Function: CrossEntropyLoss
+2. Optimizer: Adam
+3. Learning Rate: 0.0001
+4. Batch Size: 1000
+5. Training Epochs: 20
 
 1 - Classification Using CNN
 The "places-classification-128-cnn" notebook details the training process with a CNN model. It used a total of 23,278,765 parameters and saved the model with the lowest loss value.
@@ -43,12 +43,12 @@ The "places-classification-128-mobilenet" notebook outlines the training process
 The "places-classification-128-ViT" notebook explains the training process with a Vision Transformer (ViT) model. It used a total of 1,108,205 parameters and saved the model with the lowest loss value.
 
 ViT Parameters
-•	Patch Size: 16
-•	Input Channels: 3
-•	Embedding Dimension: 192
-•	Number of Heads: 3
-•	Number of Blocks: 2
-•	Dropout: 0.1
+1. Patch Size:
+2. Input Channels: 3
+3. Embedding Dimension: 192
+4. Number of Heads: 3
+5. Number of Blocks: 2
+6. Dropout: 0.1
 
 Each notebook took approximately 12 hours to train, and the best models were saved. These notebooks can be found in the folder named "pre-trained models."
 
