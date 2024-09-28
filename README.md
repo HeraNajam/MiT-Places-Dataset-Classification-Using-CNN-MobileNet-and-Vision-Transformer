@@ -5,7 +5,7 @@ This project is focused on a classification task involving over 1 million images
 1.	Convolutional Neural Network (CNN)
 2.	MobileNet with pre-trained ImageNet weights
 3.	Vision Transformer (ViT)
-4.	
+    
 This README will guide you through the project's setup, usage, and the detailed workings of these models.
 
 Dataset and Preprocessing:
